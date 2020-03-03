@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Clock from './Clock'
 
 function App() {
   return (
@@ -10,13 +11,15 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        {/* <p>{this.props.name}</p> */}
+        <Clock />
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React - By Sandeep Pokhrel
         </a>
       </header>
     </div>
